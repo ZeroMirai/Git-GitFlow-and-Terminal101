@@ -34,11 +34,14 @@ git commit -m "Add login feature"
 * `"Add login feature"` คือ value
 
 **Flags** คือ options ที่ไม่มี value.
-###### Flags simply toggle a feature on or off
+###### Flags simply toggle a feature on or off *(แต่บางโปรแกรมก็อนุญาติให้ flag รับค่าได้ `--color=auto`)*
 
 ```bash
 git status            # No flag used – shows default output format
 git status --short    # Flag is used – shows 'short' output format
+ls -l -s -h           # Flag can be separate
+ls -lsh               # Or can be combined (not all command can do this)
+ls -hsl               # Or can be put in any order (not every tool does)
 ```
 
 #### 🆘 Help Flags
