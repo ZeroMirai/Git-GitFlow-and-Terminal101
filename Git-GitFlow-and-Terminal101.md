@@ -16,6 +16,10 @@
 |`git log --all --decorate --oneline --graph`|`git`|`log`|-|`--all --decorate --oneline --graph`|
 |`ls ..`|-|`ls`|`..`|-|
 
+สามารถหาข้อมูลเพิ่มเติมเกี่ยวกับคำสั่งต่างๆ ได้ที่
+- [explainshell.com](https://explainshell.com/) – ช่วยแยกส่วนและอธิบายแต่ละพารามิเตอร์ของคำสั่ง CLI
+- [tldr pages](https://tldr.sh/) – cheatsheet สรุปคำสั่งสั้น ๆ พร้อมตัวอย่าง
+
 ---
 
 ### ⚙️ Options & Flags
